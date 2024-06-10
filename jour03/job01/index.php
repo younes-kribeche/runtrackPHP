@@ -1,6 +1,5 @@
 <?php
-function Hello(){
-  echo 'Hello LaPLateforme!';
+function Hello(): string{
+  return 'Hello LaPlateforme!';
 }
-Hello();
-?>
+  echo Hello();

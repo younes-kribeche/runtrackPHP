@@ -1,5 +1,5 @@
 <?php 
-function bonjour($jour = true){
+function bonjour($jour = true): string{
 if ($jour == true){
   return 'Bonjour';
 } else {
